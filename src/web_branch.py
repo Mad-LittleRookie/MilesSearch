@@ -104,8 +104,8 @@ class DashApp:
                           dcc.Store(id='search_data')]
             ),
             html.Div([
-                html.A('NT-tool is powered by an opensource library',
-                       href='https://github.com/xmsley614/nt_tool',
+                html.A('lichengpiao.com is used for searching award tickets.',
+                       href='https://github.com/Mad-LittleRookie/licheng',
                        target="_blank")
             ]),
 
