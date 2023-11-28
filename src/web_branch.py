@@ -18,7 +18,7 @@ from utils import date_range
 class DashApp:
     def __init__(self):
         self.dash_app = Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
-        self.dash_app.title = 'nt_tool'
+        self.dash_app.title = '里程票'
         self.dash_app.layout = html.Div([
             html.Div([
                 dbc.Stack([
